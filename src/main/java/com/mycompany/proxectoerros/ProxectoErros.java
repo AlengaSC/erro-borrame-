@@ -5,6 +5,8 @@
 
 package com.mycompany.proxectoerros;
 
+import java.util.Scanner;
+
 /**
  *
  * @author a21alencf
@@ -12,7 +14,8 @@ package com.mycompany.proxectoerros;
 public class ProxectoErros {
 
     public static void main(String[] args) {
-        int num = 789;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
         int resto;
         int numInvertido=0;
         
